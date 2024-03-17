@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cel</title>
+    <link rel="stylesheet" href="stylecel.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header class="cel">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens" class="">
+            <ul>
+                <li> <a class="uma" href="#home">Home</a></li>
+                <li> <a class="uma" href="#like">Like</a></li>
+                <li><a class="uma" href="#dislike">Dislike</a></li>
+                <li><a class="uma" href="#marido">My love</a></li>
+                <li> <a class="uma" href="cnt">Meu Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <nav class="pc">
+        <a class="uma" href="#home">Home</a>
+        <a class="uma" href="#like">Like</a>
+        <a class="uma" href="2section">Dislike</a>
+        <a class="uma" href="">My love</a>
+        <a class="uma" href="">Meu Contato</a>
+    </nav>
+
+    <section id="home">
+        <h1>Quem sou eu?</h1>
+        <div>
+            <img src="ahrii.webp" alt="">
+            <ul class="imgum">
+                <h3>Opa, Tudo bem?</h3>
+                <br><br>
+                <li>Eu me chamo Gaby, sou essa pessoa linda ai na imagem (faltou a img),</li>
+                <li>Estou namorando um gostosão que é só meu (ele é muito incrivel).</li>
+                <li>Atualmente estou cursando DS (primeiro ano), das 13:00 as 18:00,</li>
+                <li>Fazendo o ensino médio (terceiro ano), das 19:00 as 23:00 </li>
+                <li>e estou estudando design e programação por fora...</li>
+                <li>😊</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="like">
+        <h1>O que eu gosto?</h1>
+        <div>
+            
+                <img src="ahrii.webp" alt="">
+            <ul class="imgtwo">
+                <h3>Alguns dos meus gostos:</h3>
+                <br>
+                <br>
+                <li>Desenhar</li>
+                <li>Fazer designs</li>
+                <li>Ficar com meu namorado</li>
+                <li>Comer</li>
+                <li>Organizar minhas coisas</li>
+                <li>Me arrumar</li>
+                <li>Fazer compras</li>
+                <li>Passar tempo com minhas amigas</li>
+                <li>Passear</li>
+            </ul>
+        </div>
+    </section>
+
+
+
+     <script>
+                function clickMenu() {
+                    if (itens.style.display == 'block') {
+                        itens.style.display = 'none'
+                    }
+                    else {
+                        itens.style.display = 'block'
+                    }
+                }
+        </script>
+</body>
+</html>
